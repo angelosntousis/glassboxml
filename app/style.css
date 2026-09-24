@@ -1,0 +1,18 @@
+:root { --lab-ink: #17283f; --lab-teal: #087f8c; }
+.stApp { background: #f7f9fc; }
+.block-container { max-width: 1260px; padding-top: 2rem; padding-bottom: 3rem; }
+[data-testid="stSidebar"] { background: #edf2f7; border-right: 1px solid #dce4ee; }
+h1 { font-size: 2.35rem !important; letter-spacing: -.045em; font-weight: 750 !important; }
+h2, h3 { letter-spacing: -.02em; }
+[data-testid="stMetric"] { background: white; border: 1px solid #e0e7ef; border-radius: 14px; padding: 1rem 1.1rem; }
+[data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; letter-spacing: -.04em; }
+[data-testid="stVerticalBlockBorderWrapper"] > div { border-color: #e0e7ef; }
+.lab-kicker { color: #087f8c; letter-spacing: .15em; font-size: .73rem; font-weight: 750; margin: 0 0 .6rem; }
+.lab-note { padding: 1rem 1.2rem; margin: .6rem 0 1.2rem; background: #eaf5f5; border-left: 3px solid #087f8c; border-radius: 0 10px 10px 0; color: #234553; font-size: .94rem; line-height: 1.55; }
+.lab-note b { color: #123d48; }
+.lab-brand { font-size: 1.5rem; font-weight: 800; letter-spacing: -.06em; color: #17283f; margin-top: .4rem; }
+.lab-brand span { color: #087f8c; }
+.lab-footer { font-size: .73rem; color: #7c899b; margin-top: 2rem; letter-spacing: .03em; }
+[data-testid="stTabs"] [role="tablist"] { gap: 1.2rem; border-bottom: 1px solid #dbe3ec; }
+[data-testid="stTabs"] [role="tab"] { font-weight: 600; padding-bottom: .8rem; }
+@media (max-width: 700px) { h1 { font-size: 1.8rem !important; } .block-container { padding-top: 1rem; } }
